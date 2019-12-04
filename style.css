@@ -89,3 +89,87 @@ body{
 .slider{
     margin: 10px;
 }
+
+.logo{
+	width: 200px;
+	height: 60px;
+	padding: 15px;
+}
+
+section{
+	background-color: #571459;
+	display: flex;
+	justify-content: space-between;
+}
+.right{
+	display: flex;
+	align-items: center;
+}
+
+.nav {
+	align-items: center;
+}
+
+.but {
+	display: block;
+	margin: 0px 10px;
+	align-items: center;
+}
+
+.but li {
+	float: left;
+	display: block;
+	margin-right: 10px;
+}
+
+.but a {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #571459;
+	color: #fff;
+}
+.left{
+	align-items: center;
+}
+.uvedom{
+	width: 70px;
+	padding: 5px;
+	margin-right: 30px;
+	align-items: center;
+}
+form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
+}
+input {
+  width: 250px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #324b4e;
+  background: #F9F0DA;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+input:focus {
+  width: 300px;
+}
+button {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: -2px;
+  right: 0;
+}
+button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
