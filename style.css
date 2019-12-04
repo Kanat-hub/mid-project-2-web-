@@ -1,1 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;   
+}
 
+header{
+    width: 100%;
+    height: 45px;
+    background-color:black;
+    display: flex;
+}
+
+.header-left{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 30%;
+    align-items: center;
+    color: white;
+}
+
+.block__element{
+    padding: 15px;
+}
+
+.header-right{
+    display: flex;
+    width:100%;
+    height: 100%;
+    justify-content: flex-end;
+    color: white;
+    align-items: center;
+}
+
+.right__element{
+    padding: 10px;
+}
+
+.account_img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
