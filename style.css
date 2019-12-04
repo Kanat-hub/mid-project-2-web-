@@ -43,8 +43,15 @@ header{
     height: 30px;
     border-radius: 100%;
 }
-.menu{
+
+.nav_bar{
     display: flex;
+    flex-direction: column;
+    width: 270px;
+    height:550px;
+}
+
+.menu{
     flex-direction: column;
     border-radius: 2px solid black;
     justify-content: space-between;
@@ -67,7 +74,7 @@ header{
 .slider{
     width: 254px;
     height: 300px;
-    float: left;
+    /* float: left; */
 }
 
 .slideshow{
@@ -88,6 +95,18 @@ body{
 
 .slider{
     margin: 10px;
+}
+
+.main_column{
+    display: flex;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
 }
 
 .logo{
