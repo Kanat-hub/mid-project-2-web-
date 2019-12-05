@@ -192,3 +192,36 @@ button:before{
   font-family: FontAwesome;
   color: #324b4e;
 }
+.head{
+	display: flex;
+	height: 50px;
+	display: flex;
+	border: 2px solid red;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+#box{
+	width: 20px;
+	margin: 0;
+	padding: 0;
+	border: 2px solid red;
+	margin-left: 15px;
+}
+.mess{
+	display: block;
+	margin: 0px 10px;
+	align-items: center;
+}
+.mess li {
+	float: left;
+	display: block;
+	margin-right: 10px;
+}
+
+.mess a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 2px;
+}
