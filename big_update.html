@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2ea7d64e69.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bu-style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
     <title>Mid project</title>
@@ -130,6 +131,9 @@
                     <td class="columnA">
                         <input class="checkbox" type="checkbox" />
                     </td>
+                    <td class="columnA2">
+                        <i class="far fa-star"></i>
+                    </td>
                     <td class="columnB">
                         Московский институт психоанализа
                     </td>
@@ -143,6 +147,9 @@
                 <tr onclick="openMenu()">
                     <td class="columnA">
                         <input class="checkbox" type="checkbox" />
+                    </td>
+                    <td class="columnA2">
+                        <i class="far fa-star"></i>
                     </td>
                     <td class="columnB">
                         russianaicup
@@ -167,6 +174,9 @@
                 <tr onclick="openMenu()">
                     <td class="columnA">
                         <input class="checkbox" type="checkbox" />
+                    </td>
+                    <td class="columnA2">
+                        <i class="far fa-star"></i>
                     </td>
                     <td class="columnB" id="btn_open">
                         <input type="button" id="btn_open"
@@ -195,6 +205,9 @@
                 <tr onclick="openMenu()">
                     <td class="columnA">
                         <input class="checkbox" type="checkbox" />
+                    </td>
+                    <td class="columnA2">
+                        <i class="far fa-star"></i>
                     </td>
                     <td class="columnB" id="btn_open">
                         <input type="button" id="btn_open"
@@ -242,8 +255,6 @@
             let hidden = document.getElementById("hidden");
             let body = document.getElementsByTagName("body");
             window.addEventListener("click", function (e) {
-
-
                 if (e.target == btn_open[0]) {
                     okno.style.zIndex = 1000;
                     okno.style.opacity = 1;
