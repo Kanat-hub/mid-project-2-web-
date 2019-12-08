@@ -72,11 +72,6 @@ table input {
     font-size: 16px;
     /* font-family:; */
 }
-
-.menu pre{
-    background-color: white;
-}
-
 .menu{
     padding: 10px;
     margin: 10px;
