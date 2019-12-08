@@ -250,7 +250,6 @@ button:before{
 
 .mails td {
     font-size: 1em;
-    padding: 5px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -258,16 +257,16 @@ button:before{
 }
 
 .mails .columnA {
-    max-width: 30px;
+    max-width: 1.5rem;
 }
 
 .mails .columnB {
-    max-width: 150px;
+    max-width: 10rem;
     text-align: left;
 }
 
 .mails .columnC {
-    max-width: 300px;
+    max-width: 20rem;
 }
 
 .mails .columnD {
@@ -283,6 +282,21 @@ button:before{
 .columnA .checkbox{
     width:17px;
     height:17px;
+}
+.far {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+.fas {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-left: .5rem;
+}
+.menu a{
+    background-color: white;
+    display: inline;
+    font-family: 'Baskervville', serif;
+    margin: 1rem;
 }
  #okno {
   background: #F9F0DA;
